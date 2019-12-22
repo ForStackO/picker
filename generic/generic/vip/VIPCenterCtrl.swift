@@ -51,7 +51,7 @@ class VIPCenterCtrl: UIViewController, SideHeaderDelegate {
         let white = UIView()
         white.backgroundColor = UIColor.white
         view.addSubview(white)
-        layout_h()
+        doLayout()
         white.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             white.leadingAnchor.constraint(equalTo: view.leadingAnchor),

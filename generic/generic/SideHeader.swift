@@ -15,15 +15,13 @@ protocol SideHeaderDelegate: class {
     var h: SideHeader{ get set }
     var view: UIView! {get}
     var follow: UIView {get}
-    
-    
+
     func back()
-    
 }
 
 extension SideHeaderDelegate{
     
-    func layout_h(_ offset: CGFloat = 0){
+    func doLayout(_ offset: CGFloat = 0){
         view.addSubview(h)
         view.addSubview(follow)
         let top: CGFloat = 40
