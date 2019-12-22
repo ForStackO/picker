@@ -1,5 +1,5 @@
 //
-//  VIP_DiscountHeader.swift
+
 //  musicSheet
 //
 //  Created by Jz D on 2019/8/27.
@@ -15,7 +15,7 @@ enum VIP_option{
 }
 
 
-class VIP_DiscountHeader: UIView {
+class VipDiscountHeader: UIView {
 
     private lazy var discount = { () -> UIButton in
         let btn = UIButton()

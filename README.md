@@ -2,6 +2,18 @@
 UIPickerView
 
 
+#### Generic
+
+![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/a0.png)
+
+![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/b1.png)
+
+<hr>
+
+
+<hr>
+
+### HTML:
 
 ##### From
 

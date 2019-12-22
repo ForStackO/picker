@@ -114,7 +114,7 @@ class SideHeader: UIView {
         ])
         
         layer.borderColor = UIColor.magenta.cgColor
-        layer.borderWidth = 2
+        layer.borderWidth = 5
         actions()
     }
     

@@ -17,12 +17,12 @@
 		267DA3C023AF3EB500CF55C9 /* genericUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3BF23AF3EB500CF55C9 /* genericUITests.swift */; };
 		267DA3DF23AF3EDC00CF55C9 /* VIP_CenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267DA3D023AF3EDC00CF55C9 /* VIP_CenterCell.xib */; };
 		267DA3E023AF3EDC00CF55C9 /* VIP_CenterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3D123AF3EDC00CF55C9 /* VIP_CenterCell.swift */; };
-		267DA3E423AF3EDC00CF55C9 /* VIP_centerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3D523AF3EDC00CF55C9 /* VIP_centerRequest.swift */; };
+		267DA3E423AF3EDC00CF55C9 /* VIPCenterCtrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3D523AF3EDC00CF55C9 /* VIPCenterCtrlRequest.swift */; };
 		267DA3E523AF3EDC00CF55C9 /* VIP_centerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3D723AF3EDC00CF55C9 /* VIP_centerModel.swift */; };
 		267DA3E623AF3EDC00CF55C9 /* VIP_tipsFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3D923AF3EDC00CF55C9 /* VIP_tipsFoot.swift */; };
 		267DA3E723AF3EDC00CF55C9 /* VIP_records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3DA23AF3EDC00CF55C9 /* VIP_records.swift */; };
 		267DA3E923AF3EDC00CF55C9 /* VIP_DiscountHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3DC23AF3EDC00CF55C9 /* VIP_DiscountHeader.swift */; };
-		267DA3EA23AF3EDC00CF55C9 /* VIP_centerCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3DD23AF3EDC00CF55C9 /* VIP_centerCtrl.swift */; };
+		267DA3EA23AF3EDC00CF55C9 /* VIPCenterCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3DD23AF3EDC00CF55C9 /* VIPCenterCtrl.swift */; };
 		267DA3EC23AF3F6300CF55C9 /* Feedbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3EB23AF3F6300CF55C9 /* Feedbacks.swift */; };
 		267DA3EF23AF40F600CF55C9 /* FontAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3EE23AF40F600CF55C9 /* FontAdd.swift */; };
 		267DA3F123AF418500CF55C9 /* UIColorMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA3F023AF418500CF55C9 /* UIColorMore.swift */; };
@@ -66,12 +66,12 @@
 		267DA3C123AF3EB500CF55C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267DA3D023AF3EDC00CF55C9 /* VIP_CenterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIP_CenterCell.xib; sourceTree = "<group>"; };
 		267DA3D123AF3EDC00CF55C9 /* VIP_CenterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIP_CenterCell.swift; sourceTree = "<group>"; };
-		267DA3D523AF3EDC00CF55C9 /* VIP_centerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIP_centerRequest.swift; sourceTree = "<group>"; };
+		267DA3D523AF3EDC00CF55C9 /* VIPCenterCtrlRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPCenterCtrlRequest.swift; sourceTree = "<group>"; };
 		267DA3D723AF3EDC00CF55C9 /* VIP_centerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIP_centerModel.swift; sourceTree = "<group>"; };
 		267DA3D923AF3EDC00CF55C9 /* VIP_tipsFoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIP_tipsFoot.swift; sourceTree = "<group>"; };
 		267DA3DA23AF3EDC00CF55C9 /* VIP_records.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIP_records.swift; sourceTree = "<group>"; };
 		267DA3DC23AF3EDC00CF55C9 /* VIP_DiscountHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIP_DiscountHeader.swift; sourceTree = "<group>"; };
-		267DA3DD23AF3EDC00CF55C9 /* VIP_centerCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIP_centerCtrl.swift; sourceTree = "<group>"; };
+		267DA3DD23AF3EDC00CF55C9 /* VIPCenterCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPCenterCtrl.swift; sourceTree = "<group>"; };
 		267DA3EB23AF3F6300CF55C9 /* Feedbacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedbacks.swift; sourceTree = "<group>"; };
 		267DA3EE23AF40F600CF55C9 /* FontAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAdd.swift; sourceTree = "<group>"; };
 		267DA3F023AF418500CF55C9 /* UIColorMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorMore.swift; sourceTree = "<group>"; };
@@ -167,10 +167,10 @@
 			isa = PBXGroup;
 			children = (
 				267DA3CE23AF3EDC00CF55C9 /* Cells */,
-				267DA3D523AF3EDC00CF55C9 /* VIP_centerRequest.swift */,
+				267DA3D523AF3EDC00CF55C9 /* VIPCenterCtrlRequest.swift */,
 				267DA3D623AF3EDC00CF55C9 /* model */,
 				267DA3D823AF3EDC00CF55C9 /* StudyHeaders */,
-				267DA3DD23AF3EDC00CF55C9 /* VIP_centerCtrl.swift */,
+				267DA3DD23AF3EDC00CF55C9 /* VIPCenterCtrl.swift */,
 			);
 			path = vip;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 				267DA3E523AF3EDC00CF55C9 /* VIP_centerModel.swift in Sources */,
 				267DA3A223AF3EAE00CF55C9 /* ViewController.swift in Sources */,
 				267DA3E023AF3EDC00CF55C9 /* VIP_CenterCell.swift in Sources */,
-				267DA3EA23AF3EDC00CF55C9 /* VIP_centerCtrl.swift in Sources */,
+				267DA3EA23AF3EDC00CF55C9 /* VIPCenterCtrl.swift in Sources */,
 				267DA3E623AF3EDC00CF55C9 /* VIP_tipsFoot.swift in Sources */,
 				267DA3EC23AF3F6300CF55C9 /* Feedbacks.swift in Sources */,
 				267DA3F523AF449900CF55C9 /* UITableViewAdd.swift in Sources */,
@@ -367,7 +367,7 @@
 				267DA39E23AF3EAE00CF55C9 /* AppDelegate.swift in Sources */,
 				267DA3EF23AF40F600CF55C9 /* FontAdd.swift in Sources */,
 				267DA3F123AF418500CF55C9 /* UIColorMore.swift in Sources */,
-				267DA3E423AF3EDC00CF55C9 /* VIP_centerRequest.swift in Sources */,
+				267DA3E423AF3EDC00CF55C9 /* VIPCenterCtrlRequest.swift in Sources */,
 				267DA3A023AF3EAE00CF55C9 /* SceneDelegate.swift in Sources */,
 				267DA3E923AF3EDC00CF55C9 /* VIP_DiscountHeader.swift in Sources */,
 			);

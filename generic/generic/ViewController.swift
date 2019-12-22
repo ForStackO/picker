@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let vip = VIP_centerCtrl()
+    let vip = VIPCenterCtrl()
     let feed = Feedbacks()
 
 

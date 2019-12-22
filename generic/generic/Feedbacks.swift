@@ -81,7 +81,8 @@ class Feedbacks: UIViewController, SideHeaderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        view.layer.borderWidth = 2
+        view.layer.borderColor = UIColor.yellow.cgColor
         layout_h()
         
         

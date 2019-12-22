@@ -10,7 +10,7 @@ import UIKit
 
 
 
-extension VIP_centerCtrl{
+extension VIPCenterCtrl{
     
     
     func checkVIP(){

@@ -11,15 +11,10 @@ import UIKit
 
 
 
-protocol VIP_centerDelegate: class {
-    func allGetPaid(_ info: PriceInfo)
-    
-    func back_ankle()
-}
 
 
  
-class VIP_centerCtrl: UIViewController, SideHeaderDelegate {
+class VIPCenterCtrl: UIViewController, SideHeaderDelegate {
     
     
     var data: VIP_centerModel?
@@ -37,11 +32,8 @@ class VIP_centerCtrl: UIViewController, SideHeaderDelegate {
     }()
     
     
-    let discountHeader = VIP_DiscountHeader()
+    let discountHeader = VipDiscountHeader()
 
-    
-    weak var delegate: VIP_centerDelegate?
-    
 
     lazy var h = { () -> SideHeader in
         let head = SideHeader(title: "VIP 中心")
@@ -52,7 +44,8 @@ class VIP_centerCtrl: UIViewController, SideHeaderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.layer.borderWidth = 2
+        view.layer.borderColor = UIColor.green.cgColor
         view.backgroundColor = UIColor(rgb: 0xF3F3F3)
         
         let white = UIView()
@@ -77,7 +70,7 @@ class VIP_centerCtrl: UIViewController, SideHeaderDelegate {
 
 
 
-extension VIP_centerCtrl: UITableViewDelegate{
+extension VIPCenterCtrl: UITableViewDelegate{
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -152,7 +145,7 @@ extension VIP_centerCtrl: UITableViewDelegate{
 
 
 
-extension VIP_centerCtrl: UITableViewDataSource{
+extension VIPCenterCtrl: UITableViewDataSource{
     
     func numberOfSections(in tableView: UITableView) -> Int {
         guard data != nil else{
@@ -166,7 +159,6 @@ extension VIP_centerCtrl: UITableViewDataSource{
             return 0
         }
         if section == 0{
-            //  return 1 + info.price_lis.count
             return 3
         }
         else{
@@ -194,13 +186,9 @@ extension VIP_centerCtrl: UITableViewDataSource{
 }
 
 
-extension VIP_centerCtrl: VIP_CenterCellProtocol{
-    func allPay(_ index: Int) {
-        if let info = data{
-            delegate?.allGetPaid(info.price_lis[index])
-        }
+extension VIPCenterCtrl: VIP_CenterCellProtocol{
+    func allPay(_ index: Int) {}
         
-    }
     
 }
 
