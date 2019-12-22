@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>code</key>
+	<integer>200</integer>
+	<key>data</key>
+	<dict>
+		<key>price_lis</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>1</integer>
+				<key>name</key>
+				<string>一个月会员</string>
+				<key>price</key>
+				<real>48</real>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>2</integer>
+				<key>name</key>
+				<string>三个月会员</string>
+				<key>price</key>
+				<real>128</real>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>3</integer>
+				<key>name</key>
+				<string>一年会员</string>
+				<key>price</key>
+				<real>398</real>
+			</dict>
+		</array>
+		<key>record</key>
+		<array/>
+		<key>vip_expiration_time</key>
+		<string>VIP将于2020-03-15到期</string>
+	</dict>
+	<key>message</key>
+	<string></string>
+	<key>state</key>
+	<integer>-1</integer>
+</dict>
+</plist>

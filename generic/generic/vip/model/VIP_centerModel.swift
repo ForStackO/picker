@@ -10,16 +10,20 @@ import Foundation
 
 
 
+
+struct GeneralSingle<T>: Decodable  where T: Decodable {
+    let code: Int
+    var data: T
+    var state: Int
+
+}
+
+
+
 struct VIP_centerModel: Decodable{
     let price_lis: [PriceInfo]
     let record: [BuyRecord]
     let vip_expiration_time: String
-}
-
-extension VIP_centerModel{
-
- 
-    
 }
 
 struct PriceInfo: Decodable{

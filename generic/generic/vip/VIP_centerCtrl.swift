@@ -72,9 +72,7 @@ class VIP_centerCtrl: UIViewController, SideHeaderDelegate {
     
   
     
-    func back() {
-        navigationController?.popViewController(animated: true)
-    }
+    func back(){}
 }
 
 

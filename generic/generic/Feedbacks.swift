@@ -121,7 +121,7 @@ class Feedbacks: UIViewController, SideHeaderDelegate {
     
     
     func back() {
-        navigationController?.popViewController(animated: true)
+        view.endEditing(true)
     }
 }
 

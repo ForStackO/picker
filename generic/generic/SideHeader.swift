@@ -54,8 +54,8 @@ class SideHeader: UIView {
     
     weak var delegate: SideHeaderDelegate?
     
-    let hyperextension: String
-    let preacher: String
+    let title: String
+    let avatar: String
     
     lazy var headline = { () -> UILabel in
         let lbl = UILabel()
@@ -63,13 +63,13 @@ class SideHeader: UIView {
         lbl.textColor = UIColor.textHeavy
         lbl.textAlignment = .center
         
-        lbl.text = hyperextension
+        lbl.text = title
         return lbl
     }()
     
     lazy var arrow = { () -> UIImageView in
         let img = UIImageView()
-        img.image = UIImage(named: preacher)
+        img.image = UIImage(named: avatar)
         img.isUserInteractionEnabled = true
         return img
     }()
@@ -81,8 +81,8 @@ class SideHeader: UIView {
     }()
     
     init(title name: String, icon: String = "mine_fork") {
-        hyperextension = name
-        preacher = icon
+        title = name
+        avatar = icon
         super.init(frame: CGRect.zero)
         backgroundColor = UIColor.white
         headline.translatesAutoresizingMaskIntoConstraints = false
@@ -113,6 +113,8 @@ class SideHeader: UIView {
             line.heightAnchor.constraint(equalToConstant: 1)
         ])
         
+        layer.borderColor = UIColor.magenta.cgColor
+        layer.borderWidth = 2
         actions()
     }
     
