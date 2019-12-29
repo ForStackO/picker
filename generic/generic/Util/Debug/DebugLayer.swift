@@ -66,11 +66,22 @@ extension CALayer{
             methods.append(symbol)
         }
         var edgeColor = UIColor.black.cgColor
-        if let name = methods.last{
+        let debug = true
+        if let name = methods.last, debug == false{
             edgeColor = ColorCluster.shared.get(name)
         }
+        
+        if debug, let color = ColorCluster.shared.colors.randomElement() {
+            //  作为对照
+            edgeColor = color.cgColor
+        }
+        
+        
         borderColor = edgeColor
         borderWidth = 1
+        
+        
+        
     }
 }
 
