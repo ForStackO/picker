@@ -10,8 +10,6 @@ import UIKit
 
 
 struct ColorCluster {
-    
-   
     static var shared = ColorCluster()
     
     let colors = [UIColor.blue, UIColor.magenta, UIColor.red,
@@ -66,7 +64,7 @@ extension CALayer{
             methods.append(symbol)
         }
         var edgeColor = UIColor.black.cgColor
-        let debug = true
+        let debug = false
         if let name = methods.last, debug == false{
             edgeColor = ColorCluster.shared.get(name)
         }

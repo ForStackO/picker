@@ -2,6 +2,22 @@
 UIPickerView
 
 
+
+
+#### Debug Color
+
+![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/Htwo.PNG)
+
+![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/Hone.PNG)
+
+<hr>
+
+
+<hr>
+
+
+
+
 #### Generic
 
 ![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/a0.PNG)
