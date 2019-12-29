@@ -67,7 +67,7 @@ class MyStudyHeader: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
+        layer.debug()
         backgroundColor = UIColor.white
         
         rocket.translatesAutoresizingMaskIntoConstraints = false

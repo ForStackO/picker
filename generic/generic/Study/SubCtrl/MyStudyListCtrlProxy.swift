@@ -117,7 +117,7 @@ extension MyStudyListCtrl: UITableViewDelegate{
     // 做适配
     
     public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        var h: CGFloat = 25 + 8 * 2
+        var h: CGFloat = 25 + 8 * 4
         switch section {
         case 0:
             h += 30

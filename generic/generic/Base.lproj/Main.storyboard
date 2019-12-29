@@ -40,7 +40,6 @@
                                         <state key="normal" title="Three"/>
                                         <connections>
                                             <action selector="three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XxM-xz-GIW"/>
-                                            <action selector="two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2AP-rq-KD0"/>
                                         </connections>
                                     </button>
                                 </subviews>

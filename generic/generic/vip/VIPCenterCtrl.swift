@@ -44,8 +44,7 @@ class VIPCenterCtrl: UIViewController, SideHeaderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.layer.borderWidth = 2
-        view.layer.borderColor = UIColor.green.cgColor
+      
         view.backgroundColor = UIColor(rgb: 0xF3F3F3)
         
         let white = UIView()

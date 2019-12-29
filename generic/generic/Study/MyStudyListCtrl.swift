@@ -31,7 +31,7 @@ struct MyStudyData {
 class MyStudyListCtrl: UIViewController {
 
     
-    var layer_debug = false
+    var layer_debug = true
     
     lazy var header_meningitis = MyStudyHeader(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: MyStudyHeadLayout.s_header_meningitis))
     
@@ -87,6 +87,7 @@ class MyStudyListCtrl: UIViewController {
         view.backgroundColor = UIColor.white
         
         doLayout()
+        willShow()
     }
     
 
@@ -172,7 +173,7 @@ extension UIViewController{
         
    
         do{
-            if let path = Bundle.main.url(forResource: "one", withExtension: "plist"){
+            if let path = Bundle.main.url(forResource: "two", withExtension: "plist"){
                 let data = try Data(contentsOf: path)
                 let decoder = PropertyListDecoder()
                 let info = try decoder.decode(GeneralSingle<PracticeList>.self, from: data)

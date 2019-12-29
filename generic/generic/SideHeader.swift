@@ -111,8 +111,7 @@ class SideHeader: UIView {
             line.heightAnchor.constraint(equalToConstant: 1)
         ])
         
-        layer.borderColor = UIColor.magenta.cgColor
-        layer.borderWidth = 5
+        layer.debug()
         actions()
     }
     

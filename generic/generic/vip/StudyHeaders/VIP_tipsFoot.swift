@@ -28,7 +28,7 @@ class VIP_tipsFoot: UIView {
         
         
         backgroundColor = UIColor(rgb: 0xF3F3F3)
-           
+        layer.debug()
  
     }
     
