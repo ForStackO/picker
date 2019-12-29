@@ -43,21 +43,17 @@ extension UIColor{
 
     static let main = UIColor(rgb: 0xFF2D55)
     static let textHeavy = UIColor(rgb: 0x333333)    
-    static let textLightGray = UIColor(rgb: 0x999999) 
+    static let textLightGray = UIColor(rgb: 0x999999)
+    
+    static let instrumentsTag = UIColor(rgb: 0xFF7584)
+    static let shadowScore = UIColor(rgb: 0xCDCDCD, alpha: 0.5)
+    static let scoreSwitch = UIColor(rgb: 0x725A7C)
+    
+    
+    static let academicSelected = UIColor(rgb: 0xC66C86)    
 }
 
 
 
 
 
-
-extension UIView{
-    
-    func corner(_ clip: CGFloat) {
-        layer.cornerRadius = clip
-        clipsToBounds = true
-        
-    }
-    
-
-}
