@@ -6,9 +6,9 @@ UIPickerView
 
 #### Debug Color
 
-![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/Htwo.PNG)
+![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/Htwo.png)
 
-![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/Hone.PNG)
+![o](https://raw.githubusercontent.com/ForStackO/picker/master/src/Hone.png)
 
 <hr>
 
