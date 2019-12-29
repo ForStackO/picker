@@ -12,11 +12,11 @@ class ViewController: UIViewController {
     
     let vip = VIPCenterCtrl()
     let feed = Feedbacks()
-
+    let study = MyStudyListCtrl()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        config(on: [vip, feed])
+        config(on: [vip, feed, study])
     }
 
     
@@ -32,6 +32,13 @@ class ViewController: UIViewController {
     }
     
     
+    
+    @IBAction func three(_ sender: UIButton) {
+        view.bringSubviewToFront(study.view)
+    }
+    
+    
+    
     func config(on ctrls: [UIViewController]){
         ctrls.forEach { (a_ctrl) in
             addChild(a_ctrl)
@@ -45,6 +52,14 @@ class ViewController: UIViewController {
             ])
       
         }
+    }
+    
+    
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
     }
 }
 

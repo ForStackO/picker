@@ -19,7 +19,7 @@
                                 <rect key="frame" x="44" y="121.5" width="269" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKW-CQ-UK0">
-                                        <rect key="frame" x="0.0" y="0.0" width="269" height="55"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="269" height="23.5"/>
                                         <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="30"/>
                                         <state key="normal" title="One"/>
                                         <connections>
@@ -27,11 +27,20 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N1-pV-zIx">
-                                        <rect key="frame" x="0.0" y="95" width="269" height="55"/>
+                                        <rect key="frame" x="0.0" y="63.5" width="269" height="23"/>
                                         <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="30"/>
                                         <state key="normal" title="Two"/>
                                         <connections>
                                             <action selector="two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbv-KD-kh1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42h-1z-EGR" userLabel="Three">
+                                        <rect key="frame" x="0.0" y="126.5" width="269" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="30"/>
+                                        <state key="normal" title="Three"/>
+                                        <connections>
+                                            <action selector="three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XxM-xz-GIW"/>
+                                            <action selector="two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2AP-rq-KD0"/>
                                         </connections>
                                     </button>
                                 </subviews>

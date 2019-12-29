@@ -47,12 +47,6 @@ class MyStudyListCtrl: UIViewController {
         tb.tableHeaderView = header_meningitis
         tb.delegate = self
         tb.dataSource = self
-        /*
-        tb.mj_header = MJRefreshNormalHeader(refreshingBlock: {
-            self.anima = .header
-            self.see_study_record()
-        })
-        */
         tb.separatorStyle = .none
         return tb
     }()
